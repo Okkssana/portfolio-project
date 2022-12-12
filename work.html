@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oksana Pugachova Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg bg-success bg-opacity-50">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white me-5" href="/" title="Homepage"
+            >Oksana Pugachova</a
+          >
+          <button
+            class="navbar-toggler border-white border-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link active text-white me-3"
+                  aria-current="page"
+                  href="/"
+                  title="Homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link text-white"
+                  href="./about.html"
+                  title="About Oksana Pugachova"
+                  >About</a
+                >
+              </li>
+
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link text-white"
+                  href="./work.html"
+                  title="Work Oksana Pugachova"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white me-3"
+                  href="./contact.html"
+                  title="Contact Oksana Pugachova"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <h2 class="subtitle text-uppercase fs-2">My recent projects</h2>
+        <div class="row" id="projects">
+          <div class="col-md-6 mb-3">
+            <img
+              class="img img-fluid rounded"
+              src="images/vet-clinic.jpg"
+              alt="vet-clinic"
+            />
+          </div>
+          <div class="col-md-6 align-self-center">
+            <h2 class="mb-3 fs-5">VETCLINIC APP</h2>
+            <div class="descr ms-4">
+              <p class="mb-2">
+                VETCLINIC APP - landing page for a veterinary clinic.
+              </p>
+              <p>
+                In this project I used HTML, CSS, JS, bootstrap and media
+                queries to build an adaptive landing page.
+              </p>
+            </div>
+            <a
+              href="https://vet-clinic-all.netlify.app"
+              class="button mt-5 m-auto"
+              target="_blank"
+              title="VETCLINIC APP"
+              >Launch App</a
+            >
+          </div>
+        </div>
+        <div class="row row-reverse">
+          <div class="col-md-6 mb-3">
+            <img
+              class="img img-fluid rounded"
+              src="images/weather-forecast.jpg"
+              alt="weather-forecast"
+            />
+          </div>
+          <div class="col-md-6 align-self-center">
+            <h2 class="mb-3 fs-5">WEATHER FORECAST</h2>
+            <div class="descr ms-4">
+              <p class="mb-2">
+                WEATHER FORECAST - this is an hourly and daily weather forecast.
+              </p>
+              <p>
+                In my work I used HTML, CSS, JS, API requests and media queries
+                to build an adaptive landing page.
+              </p>
+            </div>
+            <a
+              href="https://weather-forecast-6.netlify.app"
+              class="button mt-5 m-auto"
+              target="_blank"
+              title="WEATHER FORECAST APP"
+              >Launch App</a
+            >
+          </div>
+        </div>
+        <div class="row pb-5">
+          <div class="col-md-6 mb-3">
+            <img
+              class="img img-fluid rounded"
+              src="images/candy-grooming.jpg"
+              alt="candy-grooming"
+            />
+          </div>
+          <div class="col-md-6 align-self-center">
+            <h2 class="mb-3 fs-5">КОНФЕТКА</h2>
+            <div class="descr ms-4">
+              <p class="mb-2">
+                КОНФЕТКА - landing page for a professional grooming salon for
+                dogs and cats.
+              </p>
+              <p>
+                In this work I used HTML, SASS, JS, jQuery, gulp, animate.css,
+                magnific-popup, slick-carousel, wow.js and media queries to
+                build an adaptive landing page.
+              </p>
+            </div>
+            <a
+              href="https://candy-grooming.netlify.app/"
+              class="button mt-5 m-auto"
+              target="_blank"
+              title="КОНФЕТКА APP"
+              >Launch App</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="footer-title">📬 Contact me</div>
+        <p id="contact">anchor</p>
+        <a
+          class="email"
+          href="mailto:ksusha1110@gmail.com?subject=Question from sheCodes&body=Hi, I've looked at your work and I have a question"
+          >ksusha1110@gmail.com</a
+        >
+        <a class="back" href="./index.html" title="Homepage">Homepage</a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
