@@ -266,6 +266,9 @@ img {
 .contact-link:hover {
   color: #d9c3c3;
 }
+.nav-link:active {
+  color: grey;
+}
 @media (max-width: 530px) {
   .navigation-links {
     flex-direction: column;
